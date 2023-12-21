@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
+    <!-- Add additional styles or scripts here -->
+</head>
+<body>
+
+    <header>
+        <h1>Max Collins</h1>
+        <p>Data | Mechanical Engineering</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
+            <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>Contact: maxrcollins1@gmail.com</p>
+    </footer>
+
+</body>
+</html>
