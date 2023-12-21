@@ -2,6 +2,7 @@
 layout: default
 title: Max Collins
 ---
+
 <body>
 
     <nav class="container">
@@ -13,20 +14,26 @@ title: Max Collins
 
     <section id="about" class="container">
         <h2>About Me</h2>
-        <p>Introduce yourself here. Mention your education, skills, and any relevant information.</p>
+        <p>A quick learner with a strong blend of technical proficiency and effective interpersonal skills. Able to
+            identify the underlying problem faced in projects by communicating clearly with a variety of stakeholders.
+            Thinks logically to find simple solutions to problems and honest when managing expectations to deliver
+            alternatives. Engaging presentation style to explain technical concepts in a simple manner.</p>
     </section>
 
     <section id="projects" class="container">
         <h2>Projects</h2>
-
-        <!-- Example Project 1 -->
-        <article class="project">
-            <h3>Project 1: Title</h3>
-            <p>Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Tools used: Python, Pandas, Scikit-Learn</p>
-            <a href="projects/project1.html" class="btn btn-primary">Read more</a>
-        </article>
+        <div class="project-container">
+            <h2 class="project-title">Skin Cancer Classification web app</h2>
+            <p class="project-date">Date: January 1, 2023</p>
+            <p class="project-technologies">Technologies Used: Python, TensorFlow, Flask</p>
+            <p class="project-description">
+                Created multi-input neural network to take image of skin lesion and patient information for
+                classification.
+                Hosted on a web app using Flask to allow users to easily upload images and receive predictions.
+                The app produces a classification report with Grad-CAM to visualise network activation.
+            </p>
+            <a href="projects/project1.html" class="project-link">Read more</a>
+        </div>
 
     </section>
 </body>
-
