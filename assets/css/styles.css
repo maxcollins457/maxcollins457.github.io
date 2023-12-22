@@ -11,7 +11,7 @@ section {
 }
 
 main {
-    padding: 20px;
+    padding: 3%;
     min-height: 100vh;
 }
 
@@ -51,7 +51,7 @@ main {
 
 
 .container {
-    max-width: 80%;
+    max-width: 85%;
 }
 
 /* Fade in */
@@ -72,7 +72,7 @@ main {
 
 .about-section {
     width: 30%;
-    padding: 20px;
+    padding: 5%;
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -96,8 +96,8 @@ main {
 .project-container {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 30px;
-    margin: 16px 0;
+    padding: 5%;
+    margin: 2% 0;
     align-items: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 50px;
