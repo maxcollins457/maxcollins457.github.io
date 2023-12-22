@@ -5,35 +5,113 @@ header {
     text-align: center;
 }
 
+section {
+    padding-top: 50px; 
+    margin-bottom: 80px;
+}
 
 main {
     padding: 20px;
+    min-height: 100vh;
 }
 
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
-    text-align: center;
+    padding: 20px;
+    clear: both;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
+
+.footer-container {
+    width: 90%;
+}
+
+.left-col {
+    text-align: left;
+    float: left;
+}
+
+.right-col{
+    text-align: end;
+    float: right;
+}
+
+.page-title {
+    margin-bottom: 20px;
+}
+
+
+.container {
+    max-width: 850px;
+}
+
+/* Fade in */
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+
+/* About section */
+
+.about-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about-section {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h3 {
+    color: #333;
+}
+
+.about-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Project containers */
 .project-container {
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 16px;
+    padding: 30px;
     margin: 16px 0;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
 }
 
-.project-title {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-bottom: 8px;
+.project-container:hover {
+    border: 2px solid #555; /* Darker grey for hover */
+    transform: scale(1.05);
 }
 
-.project-date {
-    font-size: 0.8em;
-    color: #777;
-    margin-bottom: 8px;
+.project-container .project-link {
+    align-self: flex-start;
+    margin-top: 15px;
 }
 
 .project-technologies {
@@ -46,16 +124,34 @@ footer {
 }
 
 .project-link {
-    display: inline-block;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #555;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
 }
 
 .project-link:hover {
-    background-color: #0056b3;
+    color: #fff;
 }
+
+.date {
+    font-size: 0.8em;
+    color: #777;
+    justify-content: flex-end;
+}
+
+
+/* Education - Uses some of project as well */
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.entry-header p {
+    margin: 0;
+}
+
+
 
