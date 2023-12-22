@@ -44,6 +44,20 @@ main {
     text-align: right;
 }
 
+/* For smaller screens have in one col */
+@media (max-width: 768px) {
+    .left-col,
+    .right-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-container {
+        justify-content: center;
+        display: grid;
+    }
+}
+
 .page-title {
     margin-bottom: 20px;
     text-align: center;
